@@ -98,6 +98,9 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send("server is running");
 });
+app.get('/daddy',(req,res)=>{
+  res.send('DaDDy_ku')
+})
 
 app.listen(port, () => {
   console.log("listening to port ", port);
